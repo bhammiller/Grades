@@ -29,8 +29,8 @@ public class Grades {
         else {
             letter_grade = 'F';
         }
-
-        System.out.println("Student Number is " + student_number + "/n" + student_name + test_score+ letter_grade);
-        return "Student Number is " + student_number + "/n" + student_name + test_score+ letter_grade;
+        String output = ("Student Number is " + student_number + "\nStudent name is " + student_name + "\nStudent's test score is " + test_score + "\nStudent's grade is " + letter_grade);
+        System.out.println(output);
+        return "Student Number is " + student_number + "<br/>Student name is " + student_name + "<br/>Student's test score is " + test_score + "<br/>Student's grade is " + letter_grade;
     }
 }
